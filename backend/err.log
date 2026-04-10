@@ -1,0 +1,32 @@
+[GLM-4V] Unexpected execution error: RetryError: RetryError[<Future at 0x271c567e390 state=finished raised ClientResponseError>]
+Traceback (most recent call last):
+  File "C:\Users\kesav\OneDrive\Desktop\project\backend\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kesav\OneDrive\Desktop\project\backend\image_analysis.py", line 156, in _execute_analysis
+    raise aiohttp.ClientResponseError(resp.request_info, resp.history, status=resp.status)
+aiohttp.client_exceptions.ClientResponseError: 429, message='', url='https://api.z.ai/api/paas/v4/chat/completions'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kesav\OneDrive\Desktop\project\backend\image_analysis.py", line 163, in analyze_medical_image
+    response_json = await _execute_analysis(payload, headers)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kesav\OneDrive\Desktop\project\backend\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kesav\OneDrive\Desktop\project\backend\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kesav\OneDrive\Desktop\project\backend\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kesav\OneDrive\Desktop\project\backend\venv\Lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kesav\OneDrive\Desktop\project\backend\venv\Lib\site-packages\tenacity\__init__.py", line 414, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x271c567e390 state=finished raised ClientResponseError>]
+Analyzing image...
+Result: {'summary': 'Analysis failed: RetryError[<Future at 0x271c567e390 state=finished raised ClientResponseError>]', 'status': 'error'}

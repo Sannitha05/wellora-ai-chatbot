@@ -1,0 +1,132 @@
+[
+  {
+    "topic": "Common Cold",
+    "symptoms": [
+      "Runny nose",
+      "Sore throat",
+      "Cough",
+      "Congestion"
+    ],
+    "guidance": "Rest, hydration, and over-the-counter pain relievers can help. Monitor for high fever.",
+    "category": "Upper Respiratory Infection",
+    "suggested_otc": "Antihistamines, Decongestants",
+    "brand_names": [
+      "Crocin Cold & Flu",
+      "Solvin Cold",
+      "Wikoryl"
+    ]
+  },
+  {
+    "topic": "Fever & Headache",
+    "symptoms": [
+      "High temperature",
+      "Body ache",
+      "Headache",
+      "Chills"
+    ],
+    "guidance": "Maintain hydration and rest. Use antipyretics for temperature control.",
+    "category": "Antipyretics / Analgesics",
+    "suggested_otc": "Paracetamol, Ibuprofen",
+    "brand_names": [
+      "Dolo 650",
+      "Calpol",
+      "Combiflam"
+    ]
+  },
+  {
+    "topic": "Acidity / Gastritis",
+    "symptoms": [
+      "Burning sensation in chest",
+      "Stomach pain",
+      "Bloating",
+      "Acid reflux"
+    ],
+    "guidance": "Avoid spicy food. Eat small, frequent meals.",
+    "category": "Antacids / Proton Pump Inhibitors",
+    "suggested_otc": "Pantoprazole, Omeprazole, Digene",
+    "brand_names": [
+      "Pan-D",
+      "Pantocid",
+      "Omez",
+      "Gelusil"
+    ]
+  },
+  {
+    "topic": "Allergy",
+    "symptoms": [
+      "Sneezing",
+      "Itchy eyes",
+      "Skin rash",
+      "Hives"
+    ],
+    "guidance": "Identify and avoid allergens. Maintain a clean environment.",
+    "category": "Antihistamines",
+    "suggested_otc": "Cetirizine, Loratadine",
+    "brand_names": [
+      "Okacet",
+      "Cetzine",
+      "Allegra"
+    ]
+  },
+  {
+    "topic": "Dehydration",
+    "symptoms": [
+      "Dry mouth",
+      "Dizziness",
+      "Dark urine",
+      "Fatigue"
+    ],
+    "guidance": "Immediate fluid replacement is necessary.",
+    "category": "Oral Rehydration Solutions",
+    "suggested_otc": "ORS (Electral)",
+    "brand_names": [
+      "Electral",
+      "Enerzal"
+    ]
+  },
+  {
+    "topic": "Diabetes Management",
+    "symptoms": [
+      "High blood sugar",
+      "Frequent urination",
+      "Excessive thirst"
+    ],
+    "guidance": "Regular monitoring and strict diet adherence. Consult an endocrinologist.",
+    "category": "Antidiabetics (Prescription Required)",
+    "suggested_otc": "None (Consult Doctor)",
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Glycomet",
+      "Metpure"
+    ]
+  },
+  {
+    "topic": "Hypertension",
+    "symptoms": [
+      "High blood pressure",
+      "Dizziness",
+      "Blurred vision"
+    ],
+    "guidance": "Reduce salt intake and manage weight. Regular BP checkups.",
+    "category": "Antihypertensives (Prescription Required)",
+    "suggested_otc": "None (Consult Doctor)",
+    "generic_name": "Amlodipine, Telmisartan",
+    "brand_names": [
+      "Amlokind",
+      "Telmikind",
+      "Stamlo"
+    ]
+  },
+  {
+    "topic": "Chest Pain (Emergency)",
+    "symptoms": [
+      "Crushing chest pain",
+      "Pain radiating to jaw or arm",
+      "Shortness of breath",
+      "Sweating"
+    ],
+    "guidance": "RED ALERT: High risk of Cardiac Event. Contact emergency services immediately.",
+    "category": "Emergency Care",
+    "risk_level": "High (Red)"
+  }
+]

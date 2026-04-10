@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Images Array (deepseek-vl)",
+    "payload": {
+      "model": "deepseek-vl",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is in this image?"
+        }
+      ],
+      "images": [
+        "R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+      ]
+    },
+    "status": 402,
+    "response": {
+      "error": {
+        "message": "Insufficient Balance",
+        "type": "unknown_error",
+        "param": null,
+        "code": "invalid_request_error"
+      }
+    }
+  },
+  {
+    "name": "Images Array (deepseek-chat)",
+    "payload": {
+      "model": "deepseek-chat",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is in this image?"
+        }
+      ],
+      "images": [
+        "R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+      ]
+    },
+    "status": 402,
+    "response": {
+      "error": {
+        "message": "Insufficient Balance",
+        "type": "unknown_error",
+        "param": null,
+        "code": "invalid_request_error"
+      }
+    }
+  },
+  {
+    "name": "Images Array (deepseek-vision)",
+    "payload": {
+      "model": "deepseek-vision",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is in this image?"
+        }
+      ],
+      "images": [
+        "R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+      ]
+    },
+    "status": 402,
+    "response": {
+      "error": {
+        "message": "Insufficient Balance",
+        "type": "unknown_error",
+        "param": null,
+        "code": "invalid_request_error"
+      }
+    }
+  }
+]

@@ -1,0 +1,150 @@
+
+[2026-02-22 19:07:55.768514] V5.1 Scoring -> Query: I have a high fever and body ache. Could it be Dengue? | Score: 50
+[2026-02-22 19:07:55.769518] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Dengue (Score: 50)
+Symptoms: High fever, headach...
+
+[2026-02-22 19:09:57.870701] V5.1 Scoring -> Query: I have a high fever and body ache. Could it be Dengue? | Score: 75
+[2026-02-22 19:09:57.870701] Mode Selection: DATASET MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Dengue (Confidence Score: 75%)
+Symptoms: High fe...
+
+[2026-02-22 19:12:06.475221] V5.1 Scoring -> Query: my eye get itching | Score: 25
+[2026-02-22 19:12:06.476388] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Influenza (Confidence Score: 25%)
+Symptoms: my, ...
+
+[2026-02-22 19:12:50.990707] V5.1 Scoring -> Query: suffering from 101 fever | Score: 25
+[2026-02-22 19:12:50.990707] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Ebola (Confidence Score: 25%)
+Symptoms: Fever, s...
+
+[2026-02-22 19:13:30.420531] V5.1 Scoring -> Query: feeling stressed | Score: 0
+[2026-02-22 19:13:30.420531] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+No direct dataset match found for symptoms.
+...
+
+[2026-02-22 19:14:53.599817] V5.1 Scoring -> Query: Red dots on skin and itching | Score: 0
+[2026-02-22 19:14:53.600816] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+No direct dataset match found for symptoms.
+...
+
+[2026-02-22 19:23:40.259351] V5.1 Scoring -> Query: Hello, I have a headache | Score: 25
+[2026-02-22 19:23:40.259351] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Meningitis (Confidence Score: 25%)
+Symptoms: Sud...
+
+[2026-02-22 19:23:44.191186] V5.1 Scoring -> Query: I have a fever | Score: 25
+[2026-02-22 19:23:44.193888] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Ebola (Confidence Score: 25%)
+Symptoms: Fever, s...
+
+[2026-02-22 19:23:48.315175] V5.1 Scoring -> Query: What is aspirin? | Score: 0
+[2026-02-22 19:23:48.315683] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+No direct dataset match found for symptoms.
+...
+
+[2026-02-22 19:33:38.090344] V5.1 Scoring -> Query: fever | Score: 25
+[2026-02-22 19:33:38.090344] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Ebola (Confidence Score: 25%)
+Symptoms: Fever, s...
+
+[2026-02-22 19:34:29.945374] V5.1 Scoring -> Query: cold | Score: 0
+[2026-02-22 19:34:29.945374] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+No direct dataset match found for symptoms.
+...
+
+[2026-02-22 20:21:07.568662] V5.1 Scoring -> Query: analyze this image | Score: 25
+[2026-02-22 20:21:07.570412] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Influenza (Confidence Score: 25%)
+Symptoms: impa...
+
+[2026-02-22 20:26:13.148959] V5.1 Scoring -> Query: analyze | Score: 0
+[2026-02-22 20:26:13.171004] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+No direct dataset match found for symptoms.
+...
+
+[2026-02-22 20:26:24.782671] V5.1 Scoring -> Query: fever | Score: 25
+[2026-02-22 20:26:24.783374] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Ebola (Confidence Score: 25%)
+Symptoms: Fever, s...
+
+[2026-02-22 20:31:00.110584] V5.1 Scoring -> Query: analyze | Score: 0
+[2026-02-22 20:31:00.113155] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+No direct dataset match found for symptoms.
+...
+
+[2026-02-22 22:14:28.855795] V5.1 Scoring -> Query: I M suffering from fever last night 101  | Score: 25
+[2026-02-22 22:14:28.859210] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Ebola (Confidence Score: 25%)
+Symptoms: Fever, s...
+
+[2026-02-22 22:18:58.832807] V5.1 Scoring -> Query: fever | Score: 25
+[2026-02-22 22:18:58.834024] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Ebola (Confidence Score: 25%)
+Symptoms: Fever, s...
+
+[2026-02-22 22:21:06.663207] V5.1 Scoring -> Query: suffering from fever | Score: 25
+[2026-02-22 22:21:06.668035] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Ebola (Confidence Score: 25%)
+Symptoms: Fever, s...
+
+[2026-02-22 22:21:28.693939] V5.1 Scoring -> Query: suffering from gastric | Score: 0
+[2026-02-22 22:21:28.695139] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+No direct dataset match found for symptoms.
+...
+
+[2026-02-22 22:27:12.313170] V5.1 Scoring -> Query: im suffering from fever last night 101 | Score: 25
+[2026-02-22 22:27:12.315194] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Ebola (Confidence Score: 25%)
+Symptoms: Fever, s...
+
+[2026-02-22 22:34:04.705011] V5.1 Scoring -> Query: im suffer from fever last night 101 | Score: 25
+[2026-02-22 22:34:04.705011] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Ebola (Confidence Score: 25%)
+Symptoms: Fever, s...
+
+[2026-02-22 22:40:21.354570] V5.1 Scoring -> Query: suffering from headache | Score: 25
+[2026-02-22 22:40:21.354570] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Meningitis (Confidence Score: 25%)
+Symptoms: Sud...
+
+[2026-02-23 10:16:16.554846] V5.1 Scoring -> Query: can you provide the symptoms for alzheimers disease | Score: 25
+[2026-02-23 10:16:16.562692] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: Influenza (Confidence Score: 25%)
+Symptoms: hote...
+
+[2026-02-23 10:20:44.182640] V5.1 Scoring -> Query: I havenot been feeling well for the last couple of days the various symptoms include 1. Fever 2) cold  3)cough.  | Score: 50
+[2026-02-23 10:20:44.186161] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: COVID-19 (Confidence Score: 50%)
+Symptoms: Fever...
+
+[2026-02-23 10:21:28.750260] V5.1 Scoring -> Query:  havenot been feeling well for the last couple of days the various symptoms include 1. Fever 2) cold 3)cough. | Score: 50
+[2026-02-23 10:21:28.751589] Mode Selection: AI REASONING MODE
+Injected Context: --- INTERNAL DATASET MATCHES ---
+TOP DISEASE MATCH: COVID-19 (Confidence Score: 50%)
+Symptoms: Fever...

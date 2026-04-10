@@ -1,0 +1,65 @@
+﻿venv\Scripts\python : 
+DEBUG:asyncio:Using 
+proactor: IocpProactor
+At line:1 char:1
++ venv\Scripts\python 
+test_direct.py > 
+out_v3.log 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (DEBUG:asyncio   
+ :U...r: IocpProact    
+or:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+INFO:image_analysis:[GL
+M-4V] Sending image 
+analysis request to 
+ZhipuAI...
+ERROR:image_analysis:[G
+LM-4V] Raw API error 
+body (Status 429): {"er
+ror":{"code":"1305","me
+ssage":"The service 
+may be temporarily 
+overloaded, please try 
+again later"}}
+INFO:image_analysis:[GL
+M-4V] Sending image 
+analysis request to 
+ZhipuAI...
+ERROR:image_analysis:[G
+LM-4V] Raw API error 
+body (Status 429): {"er
+ror":{"code":"1305","me
+ssage":"The service 
+may be temporarily 
+overloaded, please try 
+again later"}}
+INFO:image_analysis:[GL
+M-4V] Sending image 
+analysis request to 
+ZhipuAI...
+ERROR:image_analysis:[G
+LM-4V] Raw API error 
+body (Status 400): {"er
+ror":{"code":"1210","me
+ssage":"\u56fe\u7247\u8
+f93\u5165\u683c\u5f0f/\
+u89e3\u6790\u9519\u8bef
+"}}
+ERROR:image_analysis:[G
+LM-4V] API error 
+response (Status 400): 
+{"error":{"code":"1210"
+,"message":"\u56fe\u724
+7\u8f93\u5165\u683c\u5f
+0f/\u89e3\u6790\u9519\u
+8bef"}}
+DONE

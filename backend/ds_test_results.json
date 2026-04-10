@@ -1,0 +1,158 @@
+[
+  {
+    "name": "OpenAI Format (chat)",
+    "payload": {
+      "model": "deepseek-chat",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "What is in this image?"
+            },
+            {
+              "type": "image_url",
+              "image_url": {
+                "url": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "status": 400,
+    "response": {
+      "error": {
+        "message": "Failed to deserialize the JSON body into the target type: messages[0]: unknown variant `image_url`, expected `text` at line 1 column 253",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_request_error"
+      }
+    }
+  },
+  {
+    "name": "Image Format (chat)",
+    "payload": {
+      "model": "deepseek-chat",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "What is in this image?"
+            },
+            {
+              "type": "image",
+              "image": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            }
+          ]
+        }
+      ]
+    },
+    "status": 400,
+    "response": {
+      "error": {
+        "message": "Failed to deserialize the JSON body into the target type: messages[0]: unknown variant `image`, expected `text` at line 1 column 236",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_request_error"
+      }
+    }
+  },
+  {
+    "name": "OpenAI Format (vl)",
+    "payload": {
+      "model": "deepseek-vl",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "What is in this image?"
+            },
+            {
+              "type": "image_url",
+              "image_url": {
+                "url": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "status": 400,
+    "response": {
+      "error": {
+        "message": "Failed to deserialize the JSON body into the target type: messages[0]: unknown variant `image_url`, expected `text` at line 1 column 251",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_request_error"
+      }
+    }
+  },
+  {
+    "name": "Image Format (vl)",
+    "payload": {
+      "model": "deepseek-vl",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "What is in this image?"
+            },
+            {
+              "type": "image",
+              "image": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            }
+          ]
+        }
+      ]
+    },
+    "status": 400,
+    "response": {
+      "error": {
+        "message": "Failed to deserialize the JSON body into the target type: messages[0]: unknown variant `image`, expected `text` at line 1 column 234",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_request_error"
+      }
+    }
+  },
+  {
+    "name": "OpenAI Format (vision)",
+    "payload": {
+      "model": "deepseek-vision",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "What is in this image?"
+            },
+            {
+              "type": "image_url",
+              "image_url": {
+                "url": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "status": 400,
+    "response": {
+      "error": {
+        "message": "Failed to deserialize the JSON body into the target type: messages[0]: unknown variant `image_url`, expected `text` at line 1 column 255",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_request_error"
+      }
+    }
+  }
+]
