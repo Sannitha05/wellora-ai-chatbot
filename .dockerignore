@@ -1,0 +1,58 @@
+# Python virtual envs
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git
+.git/
+.gitignore
+
+# Database files (use cloud DB or volume)
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend build artifacts and deps
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+build/
+
+# Environment files
+.env
+backend/.env
+
+# Heavy data folders (RAG datasets go to cloud storage)
+datasets/
+thesis/
+models/
+embeddings/
+uploads/
+data/
+
+# Logs and debug files
+*.log
+*.txt
+backend/debug.txt
+backend/out*.log
+backend/err.log
+
+# Test files
+backend/test_*.py
+backend/verify_*.py
+backend/inspect_*.py
+
+# JSON test outputs
+backend/*.json
+
+# IDE
+.vscode/
+.idea/
