@@ -18,32 +18,34 @@ Additionally, Wellora integrates features inspired by Electronic Health Records 
 
 ## 🧠 Wellora – System Screens
 
+## 🧠 Wellora – System Screens
+
 ### 🚀 Landing Page
-<img src="RESPONSES%20-%20WELLORA/landing-page.png" width="700"/>
+![Landing Page](RESPONSES%20-%20WELLORA/LANDING%20PAGE.png)
 
 ### 🏠 Home Page
-<img src="RESPONSES%20-%20WELLORA/home-page.png" width="700"/>
+![Home Page](RESPONSES%20-%20WELLORA/HOME%20PAGE.png)
 
 ### 💬 Text Analysis
-<img src="RESPONSES%20-%20WELLORA/text-analysis.png" width="700"/>
+![Text Analysis](RESPONSES%20-%20WELLORA/TEXT%20ANALYSIS.png)
 
 ### 💬 Text Analysis 2
-<img src="RESPONSES%20-%20WELLORA/text-analysis-2.png" width="700"/>
+![Text Analysis 2](RESPONSES%20-%20WELLORA/TEXT%20ANALYSIS%202.png)
 
 ### 🌐 Text Analysis (Telugu)
-<img src="RESPONSES%20-%20WELLORA/text-analysis-tel.png" width="700"/>
+![Text Analysis Telugu](RESPONSES%20-%20WELLORA/TEXT%20ANALYSIS%20-%20TEL.png)
 
 ### 🌐 Text Analysis (Hindi)
-<img src="RESPONSES%20-%20WELLORA/text-analysis-hin.png" width="700"/>
+![Text Analysis Hindi](RESPONSES%20-%20WELLORA/TEXT%20ANALYSIS%20-%20HIN.png)
 
 ### 🖼️ Image Analysis 1
-<img src="RESPONSES%20-%20WELLORA/image-analysis-1.png" width="700"/>
+![Image Analysis 1](RESPONSES%20-%20WELLORA/IMAGE%20ANALYSIS%201.png)
 
 ### 🖼️ Image Analysis 2
-<img src="RESPONSES%20-%20WELLORA/image-analysis-2.png" width="700"/>
+![Image Analysis 2](RESPONSES%20-%20WELLORA/IMAGE%20ANALYSIS%202.png)
 
 ### 🖼️ Image Analysis 3
-<img src="RESPONSES%20-%20WELLORA/image-analysis-3.png" width="700"/>
+![Image Analysis 3](RESPONSES%20-%20WELLORA/IMAGE%20ANALYSIS%203.png)
 
 ### 🏥 EHR Integration
-<img src="RESPONSES%20-%20WELLORA/ehr.png" width="700"/>
+![EHR](RESPONSES%20-%20WELLORA/EHR.png)
