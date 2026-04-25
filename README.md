@@ -47,5 +47,5 @@ Additionally, Wellora integrates features inspired by Electronic Health Records 
 ### 🖼️ Image Analysis 3
 ![Image Analysis 3](RESPONSES%20-%20WELLORA/IMAGE%20ANALYSIS%203.png)
 
-### 🏥 EHR Integration
+### 🏥 EHR Integration 
 ![EHR](RESPONSES%20-%20WELLORA/EHR.jpg)
