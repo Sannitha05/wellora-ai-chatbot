@@ -18,8 +18,6 @@ Additionally, Wellora integrates features inspired by Electronic Health Records 
 
 ## 🧠 Wellora – System Screens
 
-## 🧠 Wellora – System Screens
-
 ### 🚀 Landing Page
 ![Landing Page](RESPONSES%20-%20WELLORA/LANDING%20PAGE.png)
 
